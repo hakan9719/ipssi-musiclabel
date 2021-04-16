@@ -18,6 +18,10 @@
     background: #555; 
   }
 
+.menu {
+    background-color: white ;
+}
+
 .menu img {
     height: 100px;
 }
@@ -50,9 +54,8 @@
 
 
 .album {
-    padding: 100px 0;
-    margin: 70px 0;
-    height: 100vh;
+    padding: 50px 0;
+    margin: 20px 0;
 }
 
 .scroll {
