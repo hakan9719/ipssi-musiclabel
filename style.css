@@ -1,0 +1,82 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.menu img {
+    height: 100px;
+}
+.col-1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.col-1 a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.home{
+    margin-top: 100px;
+    height: 80vh;
+}
+
+.carousel{
+    height: 100%;
+}
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel-item.active{
+    height: 100%;
+}
+
+
+.album {
+    padding: 100px 0;
+    margin: 70px 0;
+    height: 100vh;
+}
+
+.scroll {
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+  
+.scroll div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+}
