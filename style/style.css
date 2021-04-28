@@ -17,13 +17,22 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
-
+body{
+    background-color: #e5e7e7;
+}
+footer{
+    background-color: #292929;
+    color: white;
+    
+}
 .menu {
-    background-color: white ;
+    background-color: #292929 ;
 }
 
 .menu img {
     height: 100px;
+    width: 112px;
+    background-color: #e5e7e7;
 }
 .col-1 {
     padding-top: 20px;
@@ -32,7 +41,7 @@
 
 .col-1 a {
     font-size: 1.5rem;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -52,6 +61,10 @@
     height: 100%;
 }
 
+#slide1 p, #slide2 p{
+    background-color: #292929;   
+    display: inline;
+}
 
 .album {
     padding: 50px 0;
@@ -69,19 +82,20 @@
   
 .scroll div {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px;
     text-decoration: none;
 }
 
 .card {
-    height: 200px;
+    height: 250px;
     width: 200px;
 }
 
 .card img {
-    width: 100%;
+    width: 170px;
+    height: 170px;
 }
 
 .about{
@@ -90,6 +104,20 @@
 .contact{
     width: 50%;
     margin: 0 auto 0 auto;
+}
+
+#networks a{
+    color : white;
+    text-decoration: none;
+}
+
+#mentions a{
+    color : white;
+    text-decoration: none;
+}
+#mentions p{
+    margin-bottom: 0;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 737px)
