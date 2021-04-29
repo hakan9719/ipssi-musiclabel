@@ -119,7 +119,9 @@ footer{
     margin-bottom: 0;
     padding-bottom: 20px;
 }
-
+#mentionslegales {
+    padding-top: 200px ;
+}
 @media screen and (max-width: 737px)
 {
     .col-1{
