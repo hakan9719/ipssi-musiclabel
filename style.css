@@ -17,9 +17,15 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
-
+body{
+    background-color: black;
+}
 .menu img {
     height: 100px;
+    position: absolute;
+    top: 0;
+    background-color: black
+    height: 200px;  
 }
 .col-1 {
     padding-top: 20px;
@@ -28,12 +34,12 @@
 
 .col-1 a {
     font-size: 1.5rem;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .home{
-    margin-top: 100px;
+    padding-top: 100px;
     height: 80vh;
 }
 
@@ -55,6 +61,10 @@
     height: 100vh;
 }
 
+.album h3 {
+    color: white;
+}
+
 .scroll {
     overflow: auto;
     white-space: nowrap;
@@ -69,7 +79,8 @@
     color: white;
     text-align: center;
     padding: 14px;
-    text-decoration: none;
+    margin-bottom: 10px;
+    text-decoration: none;;
 }
 
 .card {
