@@ -17,9 +17,17 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+<<<<<<< HEAD:style.css
 body{
     background-color: black;
 }
+=======
+
+.menu {
+    background-color: white ;
+}
+
+>>>>>>> logan:style/style.css
 .menu img {
     height: 100px;
     position: absolute;
@@ -56,9 +64,8 @@ body{
 
 
 .album {
-    padding: 100px 0;
-    margin: 70px 0;
-    height: 100vh;
+    padding: 50px 0;
+    margin: 20px 0;
 }
 
 .album h3 {
@@ -90,4 +97,19 @@ body{
 
 .card img {
     width: 100%;
+}
+
+.about{
+}
+
+.contact{
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 737px)
+{
+    .col-1{
+        width: auto;
+    }
 }
